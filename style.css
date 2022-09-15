@@ -1,0 +1,57 @@
+* {
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #6fabd5; */
+}
+label {
+  width: 200px;
+}
+nav {
+  background-color: aliceblue;
+  width: 100%;
+  height: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding: 8px;
+}
+
+.getdata {
+  margin: 40px auto;
+  width: 60%;
+  height: 300px;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+}
+
+.showdata {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 60px;
+}
+
+.card {
+  margin: 20px 10px;
+}
+.card-body {
+  background-color: aliceblue;
+}
+
+label {
+  color: black;
+}
